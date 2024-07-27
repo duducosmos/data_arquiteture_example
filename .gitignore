@@ -177,3 +177,44 @@ pyrightconfig.json
 postgres/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+
+# Diretórios de build e de dependências
+node_modules/
+*.log
+*.tmp
+
+# Diretórios e arquivos específicos do Docker
+docker-compose.override.yml
+*.env
+*.dockerfile
+
+# Arquivos gerados pelo Jupyter
+*.ipynb_checkpoints
+jupyter_notebooks/.ipynb_checkpoints/
+
+# Dados e resultados gerados
+data/
+logs/
+*.csv
+*.json
+*.parquet
+
+# Arquivos de configuração sensíveis
+.env
+
+# Arquivos de compilação e de IDEs
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+
+# Configurações específicas do sistema
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos do Presto e outros logs temporários
+presto/logs/
+presto/data/
