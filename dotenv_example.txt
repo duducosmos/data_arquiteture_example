@@ -1,0 +1,13 @@
+AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AWS_REGION=sa-east-1
+
+# Credenciais do PostgreSQL
+POSTGRES_USER=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+POSTGRES_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+POSTGRES_DB=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Credenciais do Airflow
+AIRFLOW_USER=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AIRFLOW_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AIRFLOW_EMAIL=xxxxx@xxxx.com
